@@ -24,6 +24,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - attrs >=21.3.0
+    - typing_extensions >=4.13.0
 
 test:
   imports:
