@@ -1,13 +1,13 @@
 {% set name = "svcs" %}
-{% set version = "26.1.0" %}
+{% set version = "26.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/svcs-{{ version }}.tar.gz
-  sha256: 71550e3b228d529448136d78013b2d65528eec4632b8779f8f89c1d8585eed99
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/svcs-{{ version }}.tar.gz
+  sha256: 129efb89586c2c52295ee00b00562af7d85d5535dad149534993e25fccbd76a6
 
 build:
   noarch: python
